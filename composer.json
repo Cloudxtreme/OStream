@@ -9,13 +9,9 @@
         "symfony/asset": "4.2.*",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
-        "symfony/flex": "^1.1",
+        "symfony/flex": "^1.2",
         "symfony/framework-bundle": "4.2.*",
-        "symfony/maker-bundle": "dev-master",
-        "symfony/orm-pack": "^1.0",
-        "symfony/twig-bundle": "4.2.*",
-        "symfony/web-server-bundle": "4.2.*",
-        "symfony/yaml": "4.2.*"
+
     },
     "config": {
         "preferred-install": {
@@ -63,5 +59,6 @@
         }
     },
     "require-dev": {
+
     }
 }
