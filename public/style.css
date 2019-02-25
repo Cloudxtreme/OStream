@@ -1,0 +1,111 @@
+  body 
+  {
+  	background : linear-gradient(#b2edf4,#084775 );
+  	color : black;
+  }
+
+
+
+   p {
+   	font-size: 14px; /* tous les paragraphes ont une taille de 14 pixels */
+   	font-family: "Comic Sans MS", sans-serif; /*police du texte (si ne trouve pas "Comic sans ms", mettra la police par défaut "sans-serif") */
+   	text-align: justify; /*alignement des paragraphes : justifié */
+   	
+   }
+
+ 
+
+.enTete
+{
+	width: 100%;
+	margin: auto; 
+	margin-bottom: 25px;
+}
+
+.imageEnTete
+{
+	width: 80%;
+	height: 50%;
+	display : flex;
+	margin : auto;
+}
+
+.logo
+{
+	width: 50%;
+	position: absolute;
+    display: flex;
+    margin : auto;
+
+    
+}
+
+.Menu 
+{
+   
+   color : white;
+   position : absolute;
+   display: flex;
+   flex-direction: column;
+   width: 100%
+  
+}
+
+.menuGauche
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    color : black;
+}
+
+.elements /*éléments du menu*/
+{
+	margin : auto;
+
+}
+
+
+
+.oceanstream 
+{
+	font-family: cursive;
+	font-size: x-large;
+	color: #1897a5;
+}
+
+.titreSection1, .titreSection2, .titreSection3, .titreSection4, .titreSection5
+{
+	font-size: large;
+	font-weight: bold;
+}
+
+ .s1, .s2, .s3, .s4, .s5, .piedPage
+{
+	width: 100%;
+	margin : auto; /*pour centrer le bloc*/
+	display: flex;
+
+}
+
+.s1, .s2, .s3, .s4, .s5
+{
+	margin-bottom: 25px; /* marges extérieures en bas*/
+
+}
+
+.conteneur1, .conteneur2, .conteneur3, .conteneur4, .conteneur5
+{
+	display: flex;
+
+}
+
+
+
+
+
+
+
+
+
