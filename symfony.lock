@@ -81,9 +81,6 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
-    "nikic/php-parser": {
-        "version": "v4.2.1"
-    },
     "ocramius/package-versions": {
         "version": "1.4.0"
     },
@@ -185,15 +182,6 @@
     "symfony/http-kernel": {
         "version": "v4.2.3"
     },
-    "symfony/maker-bundle": {
-        "version": "1.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
-        }
-    },
     "symfony/orm-pack": {
         "version": "v1.0.6"
     },
@@ -233,9 +221,9 @@
             "ref": "369b5b29dc52b2c190002825ae7ec24ab6f962dd"
         },
         "files": [
-            "./config/packages/twig.yaml",
-            "./config/routes/dev/twig.yaml",
-            "./templates/base.html.twig"
+            "config/packages/twig.yaml",
+            "config/routes/dev/twig.yaml",
+            "templates/base.html.twig"
         ]
     },
     "symfony/var-exporter": {

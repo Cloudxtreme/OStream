@@ -1,67 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% block head %}
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        {% endblock %}
-        {% endblock %}
+        {% block stylesheets %}{% endblock %}
     </head>
-
     <body>
-    {% block body %}
-    <nav class = "elements">
-        <div> <a href=#flux>Flux</a> </div> <br/> <!-- liens vers des ancres de la MEME page -->
-        <div><a href = "#concept">Concept </a> </div><br/>
-        <div><a href = "#projets"> Projets </a> </div><br/>
-        <div><a href = "#equipe"> Equipe </a> </div><br/>
-        <div><a href = "#histoire"> Histoire </a> </div><br/>
-        <div><a href = "/registration"> S'inscrire ou se connecter </a> </div><br/>
-    </nav>
-
-{% block sidebar %}
-    <nav id="menu" class = "menuGauche">
-        <div class="elementMenuGauche">
-
-            <ul>
-                <li><a href="#flux">Flux</a></li> <br/>
-                <li><a href="#concept">Concept</a></li> <br/>
-                <li><a href="#projets">Projets</a></li> <br/>
-                <li><a href="#equipe">Equipe</a></li> <br/>
-                <li><a href="#histoire">Histoire</a></li> <br/>
-            </ul>
-        </div>
-    </nav>
-{% endblock %}
-
-
-    <footer class = "piedPage">  <!--pied de page -->
-        <table>
-            <tr>   <!-- première ligne-->
-                <td>  <!-- début première cellule -->
-                    <strong>Contact</strong>
-                </td> <!-- fin première cellule -->
-            </tr>  <!--fin première ligne-->
-
-            <tr>
-                <td>Adresse</td>
-            </tr>
-
-            <tr>
-                <td>Téléphone</td>
-            </tr>
-
-            <tr>
-                <td><a href = "mailto:elodielucien@gmail.com">Nous écrire</a></td>
-            </tr>
-
-        </table>
-
-    </footer>
-
-    {% endblock %}
-    {% block javascripts %}{% endblock %}
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
     </body>
 </html>
